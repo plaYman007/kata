@@ -24,3 +24,4 @@ const isChecked = true,
 console.log(isChecked && isClose);
 console.log(isChecked || isClose);
 console.log(isChecked && !isClose);
+console.log(5 + "pidr");
