@@ -7,16 +7,18 @@ const copi = obj; //кладется ссылка на наш изначальн
 copi.a = 10;
 console.log(copi);
 console.log(obj);
-//Будут одинаковые значения
+//Будут одинаковые значения, т.к. передача идёт по ссылке, т.е. передаётся не сама структура объекта - а ссылка на него. Поэтому так писать нельзя
 
 function copy(mainObj) {
   let objCopy = {};
   let key;
   for (key in mainObj) {
-    objCopy[key] = mainObj;
+    objCopy[key] = mainObj[key];
   }
   return objCopy;
 }
+
+//При помощи цикла создаем новый объект, перебирая старые свойства.
 
 const numbers = {
   a: 2,

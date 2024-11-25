@@ -50,3 +50,8 @@ function test() {
 test();
 //return - прекращает полностью работу функции. Наподобии break в циклах.
 //т.е. console.log не выведится в консоль
+
+function sayHello(i) {
+  i = "Привет, Антон!";
+}
+sayHello(i);
