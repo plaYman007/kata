@@ -1,13 +1,13 @@
 "use strict";
 //1)Простые типы
-//Числовой тип данных number
+//Числовой тип данных(number)
 let number = 4;
 console.log(number + number);
 
-//Строчный тип данных
+//Строчный тип данных(string)
 const person = "Alex";
 
-//Логический тип данных
+//Логический тип данных(boolean)
 const bool = true;
 
 // null - когда чего-то просто не существует
