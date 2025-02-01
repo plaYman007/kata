@@ -62,7 +62,7 @@ body {
 }
 
 .service__status {
-  margin-left: 10px; /* Добавляем отступ между вторым и третьим элементом */
+  margin-left: 10px;
 }
 
 h1 {
@@ -97,7 +97,7 @@ h1 {
   justify-content: space-between;
 }
 .section__text {
-  flex: 1; /* Текст занимает всю доступную ширину */
+  flex: 1;
 }
 .section__text--hiddenMobile,
 .section__text--hiddenLaptop {
