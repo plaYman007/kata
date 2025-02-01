@@ -133,7 +133,9 @@ h1 {
   .service__task {
     visibility: visible;
   }
-  .section__text--hiddenLaptop {
+  .section__text--hiddenLaptop
+  .section__text--hiddenMobile
+ {
     display: block;
   }
 }
