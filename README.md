@@ -1,1 +1,1 @@
-first project
+https://playman007.github.io/kata/
