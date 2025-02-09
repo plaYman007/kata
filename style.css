@@ -61,25 +61,25 @@
   border-radius: 50%;
 }
 .primary-btn--type_call::after {
-  background-image: url(/img/call.svg);
+  background-image: url(./img/call.svg);
 }
 .primary-btn--type_mail::after {
-  background-image: url(/img/mail.svg);
+  background-image: url(./img/mail.svg);
 }
 .primary-btn--type_profile::after {
-  background-image: url(/img/profile.svg);
+  background-image: url(./img/profile.svg);
 }
 .primary-btn--type_order::after {
-  background-image: url(/img/order.svg);
+  background-image: url(./img/order.svg);
 }
 .primary-btn--type_status::after {
-  background-image: url(/img/status.svg);
+  background-image: url(./img/status.svg);
 }
 .primary-btn--type_search::after {
-  background-image: url(/img/search.svg);
+  background-image: url(./img/search.svg);
 }
 .primary-btn--type_close::after {
-  background-image: url(/img/close.svg);
+  background-image: url(./img/close.svg);
 }
 
 body {
@@ -113,7 +113,7 @@ body {
   height: 40px;
   font-size: 0;
   background-color: #ff3e79;
-  background-image: url(/img/search.svg);
+  background-image: url(./img/search.svg);
   background-repeat: no-repeat;
   background-position: center center;
   border: none;
